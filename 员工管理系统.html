@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>员工管理系统</title>
+<!--    导入css文件-->
+    <link rel="stylesheet" href="员工管理系统.css">
+</head>
+<body>
+<!--定义整体区域-->
+<div class="outer">
+<!--    定义员工表格区域-->
+    <div class="staff_mes">
+        <div class="title">员工管理系统</div>
+<!--        定义员工表格-->
+        <table>
+<!--            定义表头-->
+            <tr class="thead">
+                <td><b>姓名</b></td>
+                <td><b>年龄</b></td>
+                <td><b>部门</b></td>
+                <td><b>删除</b></td>
+                <td><b>编辑</b></td>
+            </tr>
+<!--            初始化一行内容-->
+            <tr>
+                <td>张三</td>
+                <td>24</td>
+                <td>销售部</td>
+<!--                定义删除annual-->
+                <td><button class="del_button">删除</button></td>
+<!--                定义编辑按钮-->
+                <td><button class="com_button">编辑</button></td>
+            </tr>
+        </table>
+
+    </div>
+<!--    定义添加员工区域-->
+    <div class="add_staff">
+<!--        定义一个form表单-->
+        <form action="" id="f1">
+            <ul>
+                <li class="title"><b>添加员工</b></li>
+<!--                定义输入框-->
+                <li>姓名：<input type="text" class="sf_name" name="sf_name"></li>
+                <li>年龄：<input type="text" class="age" name="age"></li>
+<!--                定义一个select标签-->
+                <li>部门：<select name="department" id="depart">
+                             <option value="销售部">销售部</option>
+                             <option value="研发部">研发部</option>
+                             <option value="财政部">财政部</option>
+                             <option value="人事部">人事部</option>
+                         </select>
+                </li>
+            </ul>
+<!--            定义一个提交按钮-->
+            <input class="button" type="submit">
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="员工管理系统.js"></script>
+</body>
+</html>

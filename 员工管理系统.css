@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*设置整体区域*/
+.outer{
+    width: 800px;
+    /*height: 700px;*/
+    /*border: 1px solid black;*/
+    background-color: aliceblue;
+    margin: auto;
+}
+/*设置员工添加区域*/
+.add_staff{
+    border: 1px solid black;
+    margin: 200px 0 0 0;
+    background-color: cornsilk;
+}
+/*设定员工表格的标题*/
+.staff_mes .title{
+    text-align: center;
+    font-size: 20px;
+}
+/*设置修改员工表格时的输入框*/
+.staff_mes input[type="text"]{
+    background-color: cornsilk;
+    text-align: center;
+}
+/*设置员工表格*/
+table{
+    width: 700px;
+    margin: auto;
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+/*设置表格的表头单元格*/
+table .thead td{
+    background-color: orange;
+
+}
+/*设置表格单元格*/
+table tr td{
+    text-align: center;
+    width: 140px;
+    border: 1px solid black;
+}
+/*设置员工添加区域的标题*/
+.add_staff .title b{
+    font-size: 20px;
+
+}
+/*设置表单中的列表*/
+.add_staff form ul{
+    text-align: center;
+    list-style: none;
+}
+/*设置表单中的按钮*/
+.add_staff .button{
+    display: block;
+    margin: 10px auto;
+}
